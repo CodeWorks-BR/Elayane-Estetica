@@ -98,3 +98,84 @@ main {
   text-align: right;
   
 }
+
+.parte-01{
+  
+  text-align: center;
+  margin-top: 80px;
+  h2{
+    color: #B9566B;
+  }
+  p{
+    color: #B9566B;
+  }
+}
+
+
+.procedures {
+  text-align: center;
+  padding: 2rem;
+  background-color: #8C354C;
+}
+
+.procedures h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+  align-items: center;
+  font-family: "Playfair", serif;
+}
+
+.procedures-grid {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(3, 290px);
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+
+}
+
+.procedure-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.procedure-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.procedure-card h3 {
+  font-size: 1.25rem;
+  margin: 1rem 0 0.5rem;
+  color: #C86B85;
+}
+
+.procedure-card p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+
+.whatsapp-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #8C354C, #C86B85);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 450;
+}
