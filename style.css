@@ -13,8 +13,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 52.4rem;
-  background-image: url('./Assets/header.svg');
+  max-width: 52.2rem;
+  background-image: url('./Assets/hehe.svg');
 }
 
 nav ul {
@@ -42,6 +42,10 @@ main {
  
 }
 
+.logo{
+  margin-left: 90px;
+  margin-top: 8px;
+}
 
 .container-principal {
   flex: 1;
@@ -66,8 +70,9 @@ main {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  max-width: 380px;
-  margin-bottom: 30px;
+  max-width: 420px;
+  margin-bottom: 20px;
+  margin-top: -5px;
   color: rgba(157, 63, 83, 1);
 
 }
@@ -79,7 +84,7 @@ main {
   left: 0;
   width: 100%;
   height: 95%;
-  background-image: url('./Assets/logo.svg');
+  background-image: url('./Assets/fundo.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -88,8 +93,8 @@ main {
 
 .image-titulo {
   flex: 1;
-  padding-right: 130px;
-  margin-top: -82px;
+  padding-right: 145px;
+  margin-top: -73px;
   text-align: right;
   
 }
