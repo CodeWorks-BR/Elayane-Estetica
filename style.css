@@ -93,8 +93,8 @@ nav a {
 
 
 .beauty{
-  margin-top: 11.4rem;
-  margin-right: 18rem;
+  margin-top: -60px;
+  margin-right: 170px;
 }
 
 .parte-01{
@@ -129,7 +129,7 @@ nav a {
 }
 
 .procedures-grid {
-  
+  background-color: #FFA9B8;
   display: grid;
   grid-template-columns: repeat(3, 290px);
   justify-content: center;
@@ -181,4 +181,22 @@ nav a {
 
   font-family: "Outfit", sans-serif;
   font-weight: 450;
+}
+
+.clinica{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+    color: #9D3F53;
+    margin-bottom: 25px;
+    margin-left: 60px;
+  }
+p{
+  max-width: 420px;
+  text-align: justify;
+  margin-left: 60px;
+}
 }
