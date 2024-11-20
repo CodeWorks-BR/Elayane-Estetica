@@ -37,7 +37,7 @@ nav a {
  
 }
 
-main {
+.container-pai {
   display: flex;
   align-items: center;
  
@@ -93,20 +93,24 @@ main {
 
 
 .beauty{
-  margin-top: -61px;
-  margin-right: 145px;
+  margin-top: 11.4rem;
+  margin-right: 18rem;
 }
 
 .parte-01{
-  
+  background-color: rgba(242, 242, 242, 2);
   text-align: center;
-  margin-top: 80px;
   h2{
     color: #B9566B;
   }
   p{
     color: #B9566B;
   }
+}
+
+.textos-01{
+  padding: 2rem;
+ 
 }
 
 
@@ -124,7 +128,6 @@ main {
 }
 
 .procedures-grid {
-  
   display: grid;
   grid-template-columns: repeat(3, 290px);
   justify-content: center;
@@ -175,4 +178,60 @@ main {
 
   font-family: "Outfit", sans-serif;
   font-weight: 450;
+}
+
+
+.clinic {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.clinic-image {
+  margin-left: 11rem;
+}
+
+.clinic-text{
+  font-size: 1.5rem;
+  text-align: center;
+ margin-top: 20rem;
+}
+
+.clinic-text p  {
+  text-align: justify;
+  margin-left: 5rem;
+}
+
+.clinic-text h2 {
+  text-align: justify;
+  margin-left: 5rem;
+}
+
+.result {
+  background-image: url('./Assets/bggg\ 1.png');
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+
+  font-size: 1.5rem;
+}
+
+.result-text {
+  text-align: justify;
+  margin-top: 20rem
+}
+
+
+.result-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.result-transform {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  margin-top: 20px;
 }
