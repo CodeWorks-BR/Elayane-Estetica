@@ -113,6 +113,7 @@ main {
 .procedures {
   text-align: center;
   padding: 2rem;
+ 
 }
 
 .procedures h2 {
@@ -124,13 +125,13 @@ main {
 }
 
 .procedures-grid {
-  
+  background-color: #FFA9B8;
   display: grid;
   grid-template-columns: repeat(3, 290px);
   justify-content: center;
   gap: 1.5rem;
   margin-top: 2rem;
-
+  margin-bottom: 220px;
 }
 
 .procedure-card {
@@ -159,6 +160,7 @@ main {
   font-size: 0.9rem;
   color: #000;
   margin-bottom: 1rem;
+  
 }
 
 
@@ -175,4 +177,22 @@ main {
 
   font-family: "Outfit", sans-serif;
   font-weight: 450;
+}
+
+.clinica{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+    color: #9D3F53;
+    margin-bottom: 25px;
+    margin-left: 60px;
+  }
+p{
+  max-width: 420px;
+  text-align: justify;
+  margin-left: 60px;
+}
 }
