@@ -285,14 +285,38 @@ footer{
   background-color: #FFA9B8;
   display: flex;
   justify-content: space-around;
-  align-items: center; 
+  h2{
+    color: white;
+  }
+
+  .atend{
+    p{
+      color: white;
+    }
+  }
 }
 
 .textos-footer{
   
   p{
     max-width: 350px;
+    
   }
+  
+}
+
+.redes{
+  a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    
+  }
+
+  svg{
+    margin-top: 8px;
+  }
+  
 }
 
 /* Responsividade */
