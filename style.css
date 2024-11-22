@@ -62,7 +62,7 @@ nav a {
   font-weight: 500;
   max-width: 500px;
   margin-bottom: 20px;
-  color: rgba(157, 63, 83, 1);
+  color: #a05d40;
 
 }
 
@@ -73,7 +73,7 @@ nav a {
   max-width: 420px;
   margin-bottom: 20px;
   margin-top: -5px;
-  color: rgba(157, 63, 83, 1);
+  color: #a05d40;
 
 }
 
@@ -84,7 +84,7 @@ nav a {
   left: 0;
   width: 100%;
   height: 95%;
-  background-image: url('./Assets/fundo.svg');
+  background-image: url('./assets/novobg.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -98,15 +98,19 @@ nav a {
 }
 
 .parte-01 {
-  background-color: rgba(242, 242, 242, 2);
+  background-color:   #c98162;
   text-align: center;
 
   h2 {
-    color: #B9566B;
+    color: white;
+    font-size: 40px;
+   margin-top: 40px;
   }
 
   p {
-    color: #B9566B;
+    color: white;
+    margin-bottom: 90px;
+    font-size: 15px;
   }
 }
 
@@ -119,7 +123,6 @@ nav a {
 .procedures {
   text-align: center;
   padding: 2rem;
-
 }
 
 .procedures h2 {
@@ -131,12 +134,13 @@ nav a {
 }
 
 .procedures-grid {
-  background-color: #FFA9B8;
+  background-color: #c98162;
   display: grid;
   grid-template-columns: repeat(3, 290px);
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 2rem;
+  margin-top: -10rem;
+  padding: 70px;
   margin-bottom: 220px;
 }
 
@@ -282,7 +286,7 @@ nav a {
 
 footer{
   padding: 40px;
-  background-color: #FFA9B8;
+  background-color:  #D29C85;
   display: flex;
   justify-content: space-around;
   h2{
@@ -324,8 +328,10 @@ footer{
 @media screen and (max-width: 768px) {
   .result-text {
     flex-direction: column;
+    
   }
 
+ 
   .text-result {
     margin-right: 10px;
   }
