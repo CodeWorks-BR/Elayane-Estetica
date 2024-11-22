@@ -280,6 +280,21 @@ nav a {
   }
 }
 
+footer{
+  padding: 40px;
+  background-color: #FFA9B8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.textos-footer{
+  
+  p{
+    max-width: 350px;
+  }
+}
+
 /* Responsividade */
 
 @media screen and (max-width: 768px) {
