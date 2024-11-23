@@ -48,6 +48,8 @@ nav a {
   margin-top: 8px;
 }
 
+
+
 .container-principal {
   flex: 1;
   padding: 40px;
@@ -94,17 +96,17 @@ nav a {
 
 .beauty {
   margin-top: -78px;
-  margin-right: 170px;
+  margin-right: 270px;
 }
 
 .parte-01 {
-  background-color:   #c98162;
+  background-color: #c98162;
   text-align: center;
 
   h2 {
     color: white;
     font-size: 40px;
-   margin-top: 40px;
+    margin-top: 40px;
   }
 
   p {
@@ -284,43 +286,44 @@ nav a {
   }
 }
 
-footer{
+footer {
   padding: 40px;
-  background-color:  #D29C85;
+  background-color: #D29C85;
   display: flex;
   justify-content: space-around;
-  h2{
+
+  h2 {
     color: white;
   }
 
-  .atend{
-    p{
+  .atend {
+    p {
       color: white;
     }
   }
 }
 
-.textos-footer{
-  
-  p{
+.textos-footer {
+
+  p {
     max-width: 350px;
-    
+
   }
-  
+
 }
 
-.redes{
-  a{
+.redes {
+  a {
     text-decoration: none;
     color: aliceblue;
     font-size: 18px;
-    
+
   }
 
-  svg{
+  svg {
     margin-top: 8px;
   }
-  
+
 }
 
 /* Responsividade */
@@ -328,15 +331,14 @@ footer{
 @media screen and (max-width: 768px) {
   .result-text {
     flex-direction: column;
-    
+
   }
 
- 
   .text-result {
     margin-right: 10px;
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 487px) {
     .result-text {
       flex-direction: column;
     }
@@ -349,16 +351,17 @@ footer{
 
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .clinica {
     flex-direction: column;
 
-    .clinica-text {
-      margin-right: 10px;
-    }
   }
 
-  @media screen and (max-width: 450px) {
+  .clinica-text {
+    margin-right: 10px;
+  }
+
+  @media (max-width: 487px) {
     .clinica {
       flex-direction: column;
     }
@@ -370,18 +373,152 @@ footer{
 }
 
 
-@media screen and (max-width: 450px) {
+@media (max-width: 768px) {
   .procedures-grid {
     grid-template-columns: 1fr;
 
   }
 
-  @media screen and (max-width: 450px) {
+  @media (max-width: 487px) {
     .procedures-grid {
       grid-template-columns: 1fr;
-  
+
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container-pai {
+    flex-direction: column;
+  }
+
+  .beauty {
+    margin-top: auto;
+    margin-left: 10rem;
+  }
+
+  .container-principal {
+    padding: 0;
+    margin-left: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+
+
+  @media (max-width: 487px) {
+    .container-pai {
+      flex-direction: column;
+    }
+
+    .beauty {
+      margin-top: auto;
+      margin-left: 10rem;
+    }
+
+    .beauty img {
+      width: 200px;
+    }
+
+    .container-principal {
+      padding: 0;
+      margin-left: 20px;
+    }
+
+    footer {
+      flex-direction: column;
     }
   }
 }
 
 
+
+
+/* Botão de abrir o menu */
+.btn-abrir-menu {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-left: 5rem;
+  display: none;
+  z-index: 1001;
+}
+
+/* Menu Mobile */
+.menu-mobile {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.menu-mobile.ativo {
+  left: 0;
+}
+
+.menu-mobile nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu-mobile nav ul li {
+  margin: 15px 0;
+}
+
+.menu-mobile nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Botão fechar */
+.btn-fechar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.overlay.ativo {
+  display: block;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .menu-desktop {
+    display: none;
+  }
+
+  .btn-abrir-menu {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}
